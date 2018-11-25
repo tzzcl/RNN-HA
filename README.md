@@ -4,7 +4,7 @@ This is the offical website for the implementation of RNN-HA.
 
 This package is developed by Mr. Chen-Lin Zhang (http://lamda.nju.edu.cn/zhangcl/) and Dr. Xiu-Shen Wei (http://lamda.nju.edu.cn/weixs/). If you have any problem about 
 the code, please feel free to contact Mr. Chen-Lin Zhang (zhangcl@lamda.nju.edu.cn). 
-The package is free for academic usage. You can run it at your own risk. For other purposes, please contact Prof. Jianxin Wu (wujx2001@gmail.com).
+The package is free for academic usage. You can run it at your own risk. For other purposes, please contact Dr. Xiu-Shen Wei (weixs.gm@gmail.com).
 
 If you find our package is useful to your research. Please cite our paper:
 
