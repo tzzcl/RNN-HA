@@ -22,6 +22,11 @@ More specifically, the experiments is conducted under PyTorch v0.3.1 with CUDA 8
 For training RNN-HA, there are some following steps:
 
 ### prepare datasets and fine-tune base models:
+For VehicleID and VeRi datasets, you need to first get them by yourself:
+
+Please follow the instructions in (https://pkuml.org/resources/pku-vehicleid.html) and (https://github.com/VehicleReId/VeRidataset).
+
+After you get these datasets, you need to do the following steps:
 
 First you need to prepare torch style training images. We prepare a Matlab script `prepare_torch.m` to conduct the task.
 
