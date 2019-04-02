@@ -80,7 +80,7 @@ class Fusion_Net(nn.Module):
         model = remove_last(model)
         self.resnet = model
         self.first_gap = nn.AvgPool2d(kernel_size=(7,7),stride = (7,7))
-        self.second_gap = nn.AvgPool2d(kernel_size=(7,217stride = (7,7))
+        self.second_gap = nn.AvgPool2d(kernel_size=(7,7),stride = (7,7))
         self.relu = nn.ReLU()
         self.attention_activation = nn.Softplus()
         self.epilson = 1e-1
