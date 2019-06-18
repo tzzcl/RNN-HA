@@ -102,7 +102,7 @@ class Fusion_Net(nn.Module):
         o_model = output[0, :, :]
 
         o_model_input = self.W3(o_model)
-        o_model_input = self.relu(o_model)
+        o_model_input = self.relu(o_model_input)
         o_model_input = self.W4(o_model_input)
         o_model_input_expand = o_model_input.unsqueeze(2).unsqueeze(2).expand_as(im_feat)
 
